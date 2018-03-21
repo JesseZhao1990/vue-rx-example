@@ -4,7 +4,7 @@
 
 ## 项目说明
 
-脚手架利用的是vue-cli生成的，组件框架用的是element-ui，事件流处理用的是rx.js
+脚手架利用的是vue-cli生成的，组件库用的是element-ui，事件流处理用的是rx.js
 如果想在vue项目中使用rx.js,此项目可能会有参考价值
 
 ## Build Setup
