@@ -7,7 +7,7 @@
 脚手架利用的是vue-cli生成的，组件库用的是element-ui，事件流处理用的是rx.js
 如果想在vue项目中使用rx.js,此项目可能会有参考价值
 
-## Build Setup
+## 命令
 
 ``` bash
 # 安装环境
@@ -31,5 +31,3 @@ npm run e2e
 # run all tests
 npm test
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
