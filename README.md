@@ -1,14 +1,19 @@
 # vue-rx-example
 
-> A Vue.js project
+> 一个vue项目，此项目是使用rx.js的一个实际例子
+
+## 项目说明
+
+脚手架利用的是vue-cli生成的，组件框架用的是element-ui，事件流处理用的是rx.js
+如果想在vue项目中使用rx.js,此项目可能会有参考价值
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+# 安装环境
 npm install
 
-# serve with hot reload at localhost:8080
+# 在localhost:8080 启动服务并开启热加载
 npm run dev
 
 # build for production with minification
