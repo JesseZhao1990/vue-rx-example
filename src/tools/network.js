@@ -1,5 +1,8 @@
 import axios from 'axios'
-const axiosInstance = axios.create()
+import cfg from 'cfg'
+const axiosInstance = axios.create({
+  baseURL: cfg.axiosBaseURL
+})
 
 export function post (url, params) {
   return new Promise((resolve, reject) => {

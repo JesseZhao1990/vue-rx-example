@@ -36,7 +36,9 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
-      'baseURLOfAxiosCfg': process.env.NODE_ENV === 'production' ? 'http://rapapi.org/mockjsdata/32584/' :''
+      'cfg':process.env.NODE_ENV === 'production'
+      ? path.join(__dirname, '..', 'src/config/build.js')
+      : path.join(__dirname, '..', 'src/config/dev.js')  
     }
   },
   module: {
